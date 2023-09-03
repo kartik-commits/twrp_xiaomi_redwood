@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The Lineage Open Source Project
+# Copyright (C) 2021 The twrp Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,4 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/twrp_renoir.mk
+     $(LOCAL_DIR)/twrp_redwood.mk
+     
+COMMON_LUNCH_CHOICES := \
+    twrp_redwood-user \
+    twrp_redwood-userdebug \
+    twrp_redwood-eng
